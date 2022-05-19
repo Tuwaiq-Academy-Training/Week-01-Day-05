@@ -11,6 +11,7 @@ public class Main {
         time1 = time1.nextSecond();
         time1 = time1.nextMinute();
         time1 = time1.nextHour();
+        time1 = time1.nextHour();
         System.out.println("toString(): " + time1);
     }
 }

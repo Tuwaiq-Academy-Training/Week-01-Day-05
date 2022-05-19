@@ -1,5 +1,10 @@
 package Ex3Part2;
 
+import java.text.DateFormat;
+import java.text.Format;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class MyTime {
     private int hour, minute,second;
 
@@ -147,10 +152,6 @@ public class MyTime {
 
     @Override
     public String toString() {
-        return "MyTime{" +
-                "hour=" + hour +
-                ", minute=" + minute +
-                ", second=" + second +
-                '}';
+        return String.format("%02d:%02d:%02d",hour,minute,second);
     }
 }
